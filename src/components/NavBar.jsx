@@ -4,12 +4,18 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand fs-2 text-center font-monospace" href="#">
-            <img src={require('../assets/logo.png')} width="45" height="45" class="d-inline-block align-text-center" alt=""/>
-            B-Taxi CallCenter
-          </a>
-          
+        <nav class="container navbar navbar-light bg-light">
+          <div class="navbar-brand">
+            <img
+              src={require("../assets/logo.png")}
+              width="45"
+              height="45"
+              alt=""
+            />
+            <a class="mx-2 navbar-brand fs-2 font-monospace">
+              B-Taxi CallCenter
+            </a>
+          </div>
         </nav>
       </React.Fragment>
     );

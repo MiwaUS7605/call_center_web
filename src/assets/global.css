@@ -1,6 +1,5 @@
 .index-intro {
     width: 100%;
-    background-color: azure;
 }
 
 .index-intro .jumbotron {
@@ -25,11 +24,11 @@ body {
 }
 
 /* Float four columns side by side */
-.column {
+/* .column {
     float: left;
     flex: 25%;
     padding: 0 10px;
-}
+} */
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
@@ -48,9 +47,21 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* this adds the "card" effect */
     padding: 16px;
-    text-align: center;
+    /* text-align: center; */
     background-color: #f1f1f1;
+    display: flex;
 }
+
+.card-fact {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 32px;
+    text-align: center;
+    background-color: #d3d2eb;
+    border-radius: 10px;
+
+}
+
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
@@ -59,4 +70,14 @@ body {
         display: block;
         margin-bottom: 20px;
     }
+}
+
+.btn-help {
+    background-color: transparent;
+    border: transparent;
+}
+
+.btn-help:hover {
+    background-color: transparent;
+    border: transparent;
 }
