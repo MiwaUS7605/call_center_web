@@ -5,10 +5,12 @@
 .index-intro .jumbotron {
     padding: 30px 20px;
     margin: 0px;
-    background-color: bisque;
+    /* background-color: bisque;     */
     background-size: cover;
     background-image: url('../assets/banner.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(95%);
 }
 
 .row {
@@ -49,6 +51,7 @@ body {
     padding: 16px;
     /* text-align: center; */
     background-color: #f1f1f1;
+    background-position: center;
     display: flex;
 }
 
@@ -59,7 +62,6 @@ body {
     text-align: center;
     background-color: #d3d2eb;
     border-radius: 10px;
-
 }
 
 
@@ -72,12 +74,6 @@ body {
     }
 }
 
-.btn-help {
-    background-color: transparent;
-    border: transparent;
-}
-
-.btn-help:hover {
-    background-color: transparent;
-    border: transparent;
+.text-shadow {
+    text-shadow: 1px 1px 4px black;
 }

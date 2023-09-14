@@ -4,7 +4,7 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav class="container navbar navbar-light bg-light">
+        <nav class="container navbar navbar-light">
           <div class="navbar-brand">
             <img
               src={require("../assets/logo.png")}
