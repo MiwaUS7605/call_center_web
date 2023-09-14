@@ -138,7 +138,7 @@ const MainContent = () => {
               <div class="card-fact text-center">
                 <div class="card-body">
                   <p class="card-text">
-                    x% of the trips were successfully booked
+                    <b>100%</b> of the trips were successfully booked
                   </p>
                 </div>
               </div>
